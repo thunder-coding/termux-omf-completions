@@ -1,6 +1,3 @@
-# Completions for `termux-dialog`
-# Author: Yaksh Bariya <yakshbari4@gmail.com>
-
 complete -c termux-dialog -f -d "Get user input from Android native dialog widgets"
 complete -c termux-dialog -n __fish_use_subcommand -s h -d "Get help for termux-dialog"
 complete -c termux-dialog -n __fish_use_subcommand -s l -d "List all widgets and their options"

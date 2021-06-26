@@ -1,6 +1,3 @@
-# Completions for `termux-job-scheduler`
-# Author: Yaksh Bariya <yakshbari4@gmail.com>
-
 complete -c termux-job-scheduler -f -d "Schedule a script to run at specific intervals"
 complete -c termux-job-scheduler -s h -d "Get help for termux-job-scheduler"
 complete -c termux-job-scheduler -s p -l pending -d "List pending jobs and exit"
