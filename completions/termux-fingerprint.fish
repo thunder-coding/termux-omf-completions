@@ -1,7 +1,7 @@
 complete -c termux-fingerprint -f -d "Use fingerprint sensor on device for authentication"
 complete -c termux-fingerprint -s h -d "Get help for termux-fingerprint"
-complete -c termux-fingerprint -r -s t -d "Title"
-complete -c termux-fingerprint -r -s d -d "Description"
-complete -c termux-fingerprint -r -s s -d "Subtitle"
-complete -c termux-fingerprint -r -s c -d "Cancel button name"
+complete -r -c termux-fingerprint -s t -d "Title"
+complete -r -c termux-fingerprint -s d -d "Description"
+complete -r -c termux-fingerprint -s s -d "Subtitle"
+complete -r -c termux-fingerprint -s c -d "Cancel button name"
 
